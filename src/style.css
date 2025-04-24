@@ -34,7 +34,7 @@ body {
 }
 
 .wrapper-home {
-  background-image: url("./img/home/home-bg.png");
+  background-image: url("https://res.cloudinary.com/dlistrvqm/image/upload/v1745412603/zn56q1nrmcfibigberg8.png");
   background-color: rgba(0, 0, 0, 0.5);
   background-position: top;
   background-size: cover;
@@ -145,7 +145,7 @@ body {
 }
 
 .article-content {
-  background-image: url("./img/articles/article.png");
+  background-image: url("https://res.cloudinary.com/dlistrvqm/image/upload/v1745412616/qnn2l3wvv5bx3jm2s6fy.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
