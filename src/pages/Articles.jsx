@@ -3,12 +3,15 @@ import { articlesData } from "../data";
 import Article from "../components/Article";
 import "../style.css";
 import "../reset.css";
+import SearchBar from "../components/SearchBar";
 
 function Articles() {
   const [likes, setLikes] = useState(() => {
     const savedLikes = localStorage.getItem("likedArticles");
     return savedLikes ? JSON.parse(savedLikes) : {};
   });
+
+  const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
     localStorage.setItem("likedArticles", JSON.stringify(likes));
@@ -30,13 +33,19 @@ function Articles() {
     (a, b) => new Date(b.date) - new Date(a.date)
   );
 
+  // Фільтрація статей за пошуковим запитом
+  const filteredArticles = sortedArticles.filter((article) =>
+    article.title.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
   return (
     <div className="wrapper">
       <main className="main-articles">
         <h1 className="main-heading">Articles</h1>
+        <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
         <section className="section-articles">
           <ul className="articles">
-            {sortedArticles.map((article) => (
+            {filteredArticles.map((article) => (
               <Article
                 key={article.id}
                 article={article}

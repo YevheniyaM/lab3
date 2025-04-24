@@ -11,7 +11,7 @@ function Publications() {
           <div className="gallery">
             <figure className="gallery-item wide">
               <img
-                src="./img/publications/plane.png"
+                src="https://res.cloudinary.com/dlistrvqm/image/upload/v1745408611/cypowqlfuzyju5uvytkp.png"
                 alt="View from plane window"
               />
               <figcaption className="gallery-buttons">
@@ -24,7 +24,7 @@ function Publications() {
               </figcaption>
             </figure>
             <figure className="gallery-item">
-              <img src="./img/publications/sunset.png" alt="Sunset at beach" />
+              <img src="https://res.cloudinary.com/dlistrvqm/image/upload/v1745408611/wsri4rc7qoayu1jxkpy8.png" alt="Sunset at beach" />
               <figcaption className="gallery-buttons">
                 <button className="gallery-btn delete" type="button">
                   Delete
@@ -36,7 +36,7 @@ function Publications() {
             </figure>
             <figure className="gallery-item">
               <img
-                src="./img/publications/lanterns.png"
+                src="https://res.cloudinary.com/dlistrvqm/image/upload/v1745408611/klhxzpryagqrt0tryyxn.png"
                 alt="Japanese lanterns"
               />
               <figcaption className="gallery-buttons">
@@ -49,7 +49,7 @@ function Publications() {
               </figcaption>
             </figure>
             <figure className="gallery-item">
-              <img src="./img/publications/castle.png" alt="Castle view" />
+              <img src="https://res.cloudinary.com/dlistrvqm/image/upload/v1745408611/dzqfwwem1p5iefu1jcj8.png" alt="Castle view" />
               <figcaption className="gallery-buttons">
                 <button className="gallery-btn delete" type="button">
                   Delete
@@ -60,7 +60,7 @@ function Publications() {
               </figcaption>
             </figure>
             <figure className="gallery-item">
-              <img src="./img/publications/passport.png" alt="Passport" />
+              <img src="https://res.cloudinary.com/dlistrvqm/image/upload/v1745408610/xnvo4h5gmjezpbgssy6o.png" alt="Passport" />
               <figcaption className="gallery-buttons">
                 <button className="gallery-btn delete" type="button">
                   Delete
@@ -71,7 +71,7 @@ function Publications() {
               </figcaption>
             </figure>
             <figure className="gallery-item">
-              <img src="./img/publications/temple.png" alt="Japanese temple" />
+              <img src="https://res.cloudinary.com/dlistrvqm/image/upload/v1745408611/y38tv2v5uezijzm0d1ve.png" alt="Japanese temple" />
               <figcaption className="gallery-buttons">
                 <button className="gallery-btn delete" type="button">
                   Delete
@@ -82,7 +82,7 @@ function Publications() {
               </figcaption>
             </figure>
             <figure className="gallery-item">
-              <img src="./img/publications/totoro.png" alt="Totoro statue" />
+              <img src="https://res.cloudinary.com/dlistrvqm/image/upload/v1745408610/cfei0z02zaifc8nymvqq.png" alt="Totoro statue" />
               <figcaption className="gallery-buttons">
                 <button className="gallery-btn delete" type="button">
                   Delete
@@ -93,7 +93,7 @@ function Publications() {
               </figcaption>
             </figure>
             <figure className="gallery-item wide">
-              <img src="./img/publications/fuji.png" alt="Mount Fuji" />
+              <img src="https://res.cloudinary.com/dlistrvqm/image/upload/v1745408610/uafb5mcbe8xdf7q3o3jb.png" alt="Mount Fuji" />
               <figcaption className="gallery-buttons">
                 <button className="gallery-btn delete" type="button">
                   Delete

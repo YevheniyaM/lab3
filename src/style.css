@@ -9,8 +9,8 @@ html {
 
 body {
   font-family: "Jomhuria", sans-serif;
-  background: #29343c;
-  color: white;
+  background: #121212; /* Темний фон для чорної теми */
+  color: #e0e0e0; /* Світлий текст для читабельності */
 }
 
 .wrapper,
@@ -102,7 +102,7 @@ body {
 }
 
 .section-articles {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #1e1e1e; /* Темний фон для секції статей */
   width: 100%;
   padding: 35px 0 10px 0;
   display: flex;
@@ -159,7 +159,12 @@ body {
 }
 
 .article-info {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(
+    30,
+    30,
+    30,
+    0.8
+  ); /* Темний фон для інформації про статтю */
   padding: 5px 10px;
   transition: background-color 0.3s ease;
 }
@@ -844,4 +849,18 @@ body {
 
 .article.liked {
   background-color: rgb(255, 215, 0);
+}
+
+.search-bar {
+  background-color: #1e1e1e; /* Темний фон для поля вводу */
+  color: #e0e0e0; /* Світлий текст */
+  border: 1px solid #333; /* Темна рамка */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.search-bar::placeholder {
+  color: #888; /* Світлий колір для плейсхолдера */
 }

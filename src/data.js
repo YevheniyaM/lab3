@@ -1,7 +1,7 @@
 export const articlesData = [
   {
     id: 1,
-    title: "My travel to Japan",
+    title: "Exploring the Wonders of Japan",
     description:
       "I really love this trip, especially all the desserts I tried there ...",
     date: "2023-12-01",
@@ -10,7 +10,7 @@ export const articlesData = [
   },
   {
     id: 2,
-    title: "My travel to Japan",
+    title: "A Culinary Journey through Japan",
     description:
       "I really love this trip, especially all the desserts I tried there ...",
     date: "2023-12-01",
@@ -19,7 +19,7 @@ export const articlesData = [
   },
   {
     id: 3,
-    title: "My travel to Japan",
+    title: "Cultural Insights from Japan",
     description:
       "I really love this trip, especially all the desserts I tried there ...",
     date: "2023-03-01",
@@ -28,7 +28,7 @@ export const articlesData = [
   },
   {
     id: 4,
-    title: "My travel to Japan",
+    title: "The Beauty of Japanese Gardens",
     description:
       "I really love this trip, especially all the desserts I tried there ...",
     date: "2023-04-01",
@@ -37,7 +37,7 @@ export const articlesData = [
   },
   {
     id: 5,
-    title: "My travel to Japan",
+    title: "Traditional Festivals in Japan",
     description:
       "I really love this trip, especially all the desserts I tried there ...",
     date: "2023-05-01",
@@ -46,7 +46,7 @@ export const articlesData = [
   },
   {
     id: 6,
-    title: "My travel to Japan",
+    title: "Modern Architecture in Tokyo",
     description:
       "I really love this trip, especially all the desserts I tried there ...",
     date: "2023-06-01",
@@ -55,7 +55,7 @@ export const articlesData = [
   },
   {
     id: 7,
-    title: "My travel to Japan",
+    title: "The Art of Sushi Making",
     description:
       "I really love this trip, especially all the desserts I tried there ...",
     date: "2023-07-01",
@@ -64,7 +64,7 @@ export const articlesData = [
   },
   {
     id: 8,
-    title: "My travel to Japan",
+    title: "Exploring Kyoto's Temples",
     description:
       "I really love this trip, especially all the desserts I tried there ...",
     date: "2023-08-01",
@@ -73,7 +73,7 @@ export const articlesData = [
   },
   {
     id: 9,
-    title: "My travel to Japan",
+    title: "The Nightlife of Osaka",
     description:
       "I really love this trip, especially all the desserts I tried there ...",
     date: "2023-09-01",
@@ -82,7 +82,7 @@ export const articlesData = [
   },
   {
     id: 10,
-    title: "My travel to Japan",
+    title: "Hiking in the Japanese Alps",
     description:
       "I really love this trip, especially all the desserts I tried there ...",
     date: "2023-10-01",
@@ -91,7 +91,7 @@ export const articlesData = [
   },
   {
     id: 11,
-    title: "My travel to Japan",
+    title: "Discovering Okinawa's Beaches",
     description:
       "I really love this trip, especially all the desserts I tried there ...",
     date: "2023-11-01",
@@ -100,7 +100,7 @@ export const articlesData = [
   },
   {
     id: 12,
-    title: "My travel to Japan",
+    title: "The Cherry Blossoms of Japan",
     description:
       "I really love this trip, especially all the desserts I tried there ...",
     date: "2023-12-01",

@@ -70,7 +70,7 @@ function Publication() {
           <div className="publication-info">
             <figure className="publication-img">
               <img
-                src="./img/publication/publication.png"
+                src="https://res.cloudinary.com/dlistrvqm/image/upload/v1745412611/jx8iwwvdvyle3y0jm1s3.png"
                 alt="Publication image about Japan travel"
               />
             </figure>
